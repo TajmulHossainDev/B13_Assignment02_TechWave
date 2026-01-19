@@ -180,6 +180,300 @@ ul,a{
     width: 20px;
     height: 20px;
 }
+
+#podcast{
+    max-width: 1600px;
+    min-height: 646px;
+    margin: 0 auto;
+    padding: 0 200px;
+    color: #fff;
+}
+
+.podcast-container{
+    max-width: 1200px;
+    margin-top: 50px; 
+}
+
+.podcast-content{
+    max-width: 1200px;
+    min-height: 222px;
+    text-align: center;
+}
+
+.horizontal-rule{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    border: 1px solid rgb(49, 48, 48);
+}
+
+.podcast-content h1{
+    font-size: 3rem;
+    font-weight: 800;
+    color: #ffffff;
+    margin-bottom: 16px;
+}
+.podcast-content p{
+    font-size: 1rem;
+    line-height: 16px;
+    color: rgb(187, 186, 186);
+}
+
+.podcast-content .line-break{
+    margin-bottom: 20px;
+}
+
+.podcast-content .bottom-line{
+    margin-top: 50px;
+}
+ 
+ 
+.podcast-rating{
+    max-width: 1200px;
+    min-height: 94px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.rating-card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 80px;
+}
+
+.card-box h1{
+    font-size: 3rem;
+    color: #00FF88;
+    margin-bottom: 15px;
+}
+
+.card-box .star{
+    display: inline-flex;
+    align-items: center;
+}
+.card-box .fa-sharp{
+    align-items: center;
+    font-size: 2rem;
+}
+
+.card-box p{
+    font-size: 1rem;
+    color: rgb(187, 187, 187);
+    letter-spacing: 1px;
+}
+
+#why-choose{
+    max-width: 1600px;
+    min-height: 1121px;
+    margin: 0 auto;
+    padding: 120px 200px;
+    background: #250253;
+}
+
+.top-content{
+    max-width: 1200px;
+    min-height: 58px;
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 40px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.bottom-content{
+    max-width: 1200px;
+    min-height: 783px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3,250px);
+    gap: 30px;
+
+}
+
+.audio{
+    border-radius: 40px;
+    padding: 40px;
+    background: #330472;
+    grid-column: span 1;
+    grid-row: span 2;
+}
+
+.audio img{
+    margin-top: 60px;
+    margin-bottom: 16px;
+}
+
+.audio h3{
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 16px;
+
+
+}
+
+.audio p{
+    font-size: 1rem;
+    color: rgb(166, 164, 164);
+    line-height: 24px;
+    letter-spacing: 2px;
+}
+
+
+.mobile{
+    border-radius: 40px;
+    padding: 40px;
+    background: #330472;
+    grid-column: span 2;
+    grid-row: span 1;
+}
+
+.mobile img{
+    margin-bottom: 16px;
+}
+
+.mobile h3{
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 16px;
+}
+
+.mobile p{
+    font-size: 1rem;
+    color: rgb(166, 164, 164);
+    line-height: 24px;
+
+}
+
+.global{
+    border-radius: 40px;
+    padding: 40px;
+    background: #330472;
+    grid-column: span 2;
+    grid-row: span 1;
+}
+
+.global img{
+    margin-bottom: 16px;
+}
+
+.global h3{
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 16px;
+}
+
+.global p{
+    font-size: 1rem;
+    color: rgb(166, 164, 164);
+    line-height: 24px;
+}
+
+.thunder{
+    border-radius: 40px;
+    padding: 40px;
+    background: #330472;
+    grid-column: span 2;
+    grid-row: span 1;
+}
+
+.thunder img{
+    margin-bottom: 16px;
+}
+
+.thunder h3{
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 16px;
+}
+
+.thunder p{
+    font-size: 1rem;
+    color: rgb(166, 164, 164);
+    line-height: 24px;
+}
+
+.resource{
+    border-radius: 40px;
+    padding: 40px;
+    background: #330472;
+    grid-column: span 1;
+    grid-row: span 1;
+}
+.resource img{
+     margin-bottom: 16px;
+
+}
+.resource h3{
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 16px;
+
+}
+.resource p{
+     font-size: 1rem;
+    color: rgb(166, 164, 164);
+    line-height: 24px;
+}
+
+#feature{
+    color: #ffffff;
+    max-width: 1600px;
+    min-height: 1276px;
+    margin: 0 auto;
+    padding: 120px 200px;
+    border: 1px solid red;
+}
+
+.feature-content{
+    max-width: 1200px;
+    min-height: 538px;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.feature-content .feature-box{
+    min-width: 380px;
+    min-height: 440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+}
+
+.host{
+    max-width: 1200px;
+    min-height: 378px;
+    border: 1px solid red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 576px){
     header{
         padding: 16px 20px;
