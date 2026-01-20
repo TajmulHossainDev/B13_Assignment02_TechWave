@@ -745,6 +745,11 @@ ul,a{
         line-height: 1.5;
     }
 
+    .primary-btn, .subscribe-btn{
+        font-size: 0.9rem;
+        padding: 10px 12px;
+    }
+
     #podcast{
         padding: 60px 20px;
         min-height: auto;
