@@ -73,11 +73,42 @@ ul,a{
 
 }
 
+.subscribe-btn{
+    padding: 12px 20px;
+    border-radius: 30px;
+    background: transparent;
+    color: #fff;
+    border: 1px solid #00FF88;
+    display: inline-flex;
+    gap: 8px;
+    font-size: 1rem;
+    font-weight: 500;
+
+}
+
+.primary-btn,
+.subscribe-btn{
+    transition: transform 0.35s ease;
+}
+
+.primary-btn:hover{
+    transform: translateX(-18px);
+}
+
+.subscribe-btn:hover{
+    transform: translateX(18px);
+}
+
 .humburger-icon{
     display: none;
     cursor: pointer;
 }
-
+.rule{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border: 1px solid rgb(49, 48, 48);
+}
 #hero{
     max-width: 1600px;
     min-height: 760px;
@@ -134,7 +165,11 @@ ul,a{
     font-weight: 600;
     top: 10px;
     left: 70%;
+    cursor: pointer;
+    animation: badge-float 1.6s ease-in-out infinite;
 }
+
+
 
 .hero-content{
     text-align: center;
@@ -164,18 +199,7 @@ ul,a{
     border: 1px solid #fff;
     border-radius: 50%;
 }
-.hero-content .subscribe-btn{
-    padding: 12px 20px;
-    border-radius: 30px;
-    background: transparent;
-    color: #fff;
-    border: 1px solid #00FF88;
-    display: inline-flex;
-    gap: 8px;
-    font-size: 1rem;
-    font-weight: 500;
 
-}
 .subscribe-icon{
     width: 20px;
     height: 20px;
@@ -634,6 +658,17 @@ ul,a{
 
 
 
+@keyframes badge-float{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-15px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
 
 
 
