@@ -641,6 +641,13 @@ ul,a{
     header{
         padding: 16px 20px;
     }
+    nav{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    nav-logo h1{
+        font-size: 1.5rem;
+    }
     ul{
         display: none;
     }
@@ -649,6 +656,336 @@ ul,a{
     }
     .humburger-icon{
         display: block;
+        width: 30px;
+    }
+
+    #hero{
+        min-height: 100vh;
+        padding: 40px 20px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    #hero .hero-container{
+        width: 100%;
+        height: auto;
+        padding: 0 20px;
+    }
+
+    .hero-img{
+        width: 250px;
+        height: 250px;
+        margin: 0 auto;
+    }
+
+    .micro-phone{
+        width: 150px;
+        height: 150px;
+    }
+
+    .micro-phone img{
+        width: 90px;
+        height: 130px;
+    }
+
+    .badge{
+        font-size: 0.875rem;
+        padding: 6px 12px;
+        left: 65%;
+    }
+
+    .hero-content{
+        margin-top: 30px;
+        padding: 0 10px;
+    }
+
+    .hero-content h1{
+        font-size: 2.5rem;
+        margin-bottom: 12px;
+    }
+
+    .hero-content p{
+        font-size: 0.9rem;
+        margin-bottom: 24px;
+        line-height: 1.5;
+    }
+
+    #podcast{
+        padding: 60px 20px;
+        min-height: auto;
+    }
+
+    .podcast-container{
+        max-width: 100%;
+        margin-top: 0;
+    }
+
+    .podcast-content{
+        width: 100%;
+        min-height: auto;
+        padding: 0;
+    }
+
+    .podcast-content h1{
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+
+    .podcast-content p{
+        font-size: 0.9rem;
+        line-height: 1.6;
+        padding: 0 10px;
+    }
+
+    .podcast-content .line-break{
+        margin-bottom:  12px;
+    }
+
+    .podcast-content .bottom-line{
+        margin-top: 24px;
+    }
+
+    .horizontal-rule{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .podcast-rating{
+        max-width: 100%;
+        min-height: auto;
+    }
+
+    .rating-card{
+        flex-wrap: wrap;
+    }
+
+    .card-box{
+        text-align: center;
+    }
+
+    .card-box h1{
+        font-size: 2.5rem;
+        margin-bottom: 8px;
+    }
+
+    .card-box .star{
+        justify-content: center;
+    }
+
+    .card-box .fa-sharp{
+        font-size: 1.5rem;
+    }
+
+    .card-box p{
+        font-size: 0.875rem;
+        letter-spacing: 0.5px;
+    }
+
+    #why-choose{
+        padding: 60px 20px;
+    }
+
+    .top-content{
+        max-width: 100%;
+        min-height: auto;
+        font-size: 2rem;
+        margin-bottom: 30px;
+    }
+
+    .bottom-content{
+        max-width: 100%;
+        min-height: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        gap: 20px;
+    }
+
+    .audio,
+    .mobile,
+    .global,
+    .thunder,
+    .resource{
+        grid-column: span 1;
+        grid-row: span 1;
+        padding: 30px;
+        min-height: auto;
+    }
+
+    .audio h3,
+    .mobile h3,
+    .global h3,
+    .thunder h3,
+    .resource h3{
+        font-size: 1.2rem;
+        margin-bottom: 12px;
+    }
+
+    .audio p,
+    .mobile p,
+    .global p,
+    .thundar p,
+    .resource p{
+        font-size: 0.9rem;
+        line-height: 1.6;
+        letter-spacing: 0.5px;
+    }
+
+    #featured{
+        padding: 60px 20px;
+    }
+
+    .featured-container{
+        max-width: 100%;
+    }
+
+    .feature-content{
+        font-size: 2rem;
+        margin-bottom: 30px;
+    }
+
+    .featured-videos{
+        overflow-x: hidden;
+    }
+
+    .video-box{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .box{
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .box iframe{
+        height: 200px;
+        width: 100%;
+    }
+
+    .box .box-content{
+        padding: 20px;
+    }
+
+    .box-content .title{
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+    }
+
+    .box-content .description{
+        font-size: 0.9rem;
+        line-height: 1.5;
+        margin-bottom: 12px;
+    }
+
+    .box-content .img{
+        width: 16px;
+        height: 16px;
+    }
+
+    #host{
+        padding: 60px 20px;
+    }
+
+    .host-container{
+        max-width: 100%;
+    }
+
+    .host-title{
+        margin-bottom: 30px;
+    }
+
+    .host-title h3{
+        font-size: 2rem;
+    }
+
+    .host-detail{
+        max-width: 100%;
+        min-height: auto;
+        flex-direction: column;
+        padding: 40px 24px;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .host-img{
+        width: 150px;
+        height: 150px;
+        margin: 0 auto;
+    }
+
+    .host-img img{
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+    }
+
+    .host-description{
+        align-items: center;
+    }
+
+    .host-description h4{
+        font-size: 1.5rem;
+        margin-bottom: 12px;
+    }
+
+    .host-description p{
+        font-size: 0.9rem;
+        line-height: 1.5;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .host-links ul{
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .host-links ul li{
+        padding: 10px;
+    }
+
+    .host-links img{
+        width: 18px;
+        height: 18px;
+    }
+
+    #footer{
+        padding: 60px 20px;
+    }
+
+    .footer-container{
+        max-width: 100%;
+        min-height: auto;
+        gap: 24px;
+    }
+
+    .footer-title{
+        font-size: 2rem;
+        margin: 0;
+    }
+
+    .footer-links,
+    .link{
+        min-width: 100%;
+        flex-wrap: wrap;
+        gap: 16px;
+        text-align: center;
+    }
+
+    .footer-links .link li{
+        width: 100%;
+    }
+
+    .footer-links .link li a{
+        justify-content: center;
+        font-size: 0.95rem;
+        gap: 10px;
+    }
+
+    .footer-links .link li a img{
+        width: 20px;
+        height: 20px;
     }
 
 }
